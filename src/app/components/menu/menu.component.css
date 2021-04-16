@@ -1,0 +1,57 @@
+.contenedorP{
+
+
+    padding: 90px;
+}
+
+.fondoM{
+
+    background-color: rgba(8, 80, 236, 0.904);
+    padding: 2px;
+    border-radius: 12px;
+}
+
+.image{
+    
+    border-radius: 12px;
+}
+.alineacion{
+    margin:12px;
+    display:inline-block;
+}
+table{
+    width:400px;
+    background-color: black;
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+    color: darkorange;
+    border-radius:20px;
+}
+
+th{
+    border-color: yellow;
+    border-width: 1px;
+    border-style: solid;
+    border-radius:20px;
+
+}
+
+td{
+    border-color: yellow;
+    border-width: 1px;
+    border-style: groove;
+
+
+}
+
+.demo{
+
+ border-style: groove;
+ border-color: rgb(26, 24, 23);
+ border-width: 3px;
+ color: rgb(10, 9, 110);
+ font-size: 30px;
+ display:none;
+ 
+}

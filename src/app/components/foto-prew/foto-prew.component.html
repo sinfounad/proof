@@ -1,0 +1,85 @@
+<div class="row" *ngIf="!foto; else main_content">
+<h1>Loading...</h1>
+
+</div>
+<ng-template #main_content>
+     <div class="row">
+
+          <div class="col-md-5">
+              <img [src]="'http://localhost:4000/'+foto.imagePath" alt="" class="img-fluid">
+              
+          </div>
+          </div>
+
+     <div class="col-md-7">
+    <div class="card">
+
+     <form class="card-body" (submit)="updateFoto(title, description)" >
+
+          <div class="form-group">
+               <input type="text" class="form-control" placeholder="fotos" [value]="foto.title" #title>
+               
+          </div>
+          <div class="form-group">
+           <textarea  cols="30" rows="30" class="form-control" placeholder="foto-Description" [value]="foto.description" #description></textarea>
+          </div>
+          <button class="btn btn-primary btn-block">
+               Actualiza
+
+          </button>
+     </form>
+    </div>
+
+     </div>
+     <br>
+     <button class="btn btn-danger" (click)="deleteFoto(foto._id)">
+       Delete
+     </button>
+
+</ng-template>
+
+<div class="row" *ngIf="!foto; else main_contents">
+    <h1>Loading...</h1>
+    
+    </div>
+    <ng-template #main_contents>
+        <div class="col-lg-4 mx-auto" >
+            <div class="card">
+            
+            
+                <div class="card-header">
+                   Sube una foto
+                    {{foto.title}}
+                </div>
+                <div class="card-body">
+                    <form (submit)="eres(foto, title, description)">
+                        <div class="form-group">
+                            
+             
+                            <input type="text" class="form-control" placeholder="Photo's Title" [value]="foto.title"  required #title>
+                        </div>
+                        <div class="form-group">
+            
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" [value]="foto.description" required #description></textarea>
+                        </div>
+                      
+                        <div>
+                          <input type="file" class="d-none" (change)="onPhotoselected($event)" #photoInput>
+                          
+                          <img [src]="'http://localhost:4000/'+foto.imagePath" alt="" width="100%" height="200px" (click)="photoInput.click()">
+                        </div>
+                        <button class="btn btn-primary btn-block">Upload</button>
+            
+                    </form>
+                   
+                </div>
+            </div>
+            
+            </div>
+       
+    
+    </ng-template>
+
+
+
+

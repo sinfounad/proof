@@ -1,0 +1,42 @@
+
+  @font-face
+  {src: url(../../../assets/Fonts/eskindar.ttf);
+  
+    font-family:eskindar;
+  
+    
+    }
+
+
+    h2{
+
+       font-family: eskindar; 
+       color: yellow;
+       font-size: 65px;
+       -webkit-text-stroke: 2px red;
+      
+    }
+    .contButton{
+
+        display:flex;
+        padding: 10px 0px;
+     
+    }
+
+    button{
+        margin-left: 40px;
+        color: white;
+        border-color: transparent;
+        border-radius: 14px;
+        width: 160px;
+        height:60px;
+        background-color: transparent;
+    }
+   
+
+    button:hover {
+        color: rgb(228, 228, 148);
+        border-color: white;
+        background-color: rgb(102, 218, 67);
+        
+      }

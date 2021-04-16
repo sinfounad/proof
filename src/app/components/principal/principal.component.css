@@ -1,0 +1,52 @@
+
+.contenedor{
+    padding:3px;
+    padding-top: 12px;
+    
+}
+.contLine{
+
+    display:flex;
+    width:100%;
+    border-radius: 13px;
+    background-color: blue;
+    justify-content: center;
+    opacity: 0.8;
+}
+
+.lateral {
+
+    background-color: blue;
+    width: 20%;
+}
+
+nav{
+
+    background-color: blue;
+    width: 100%;
+    margin-bottom: 3px;
+    opacity: 0.8;
+    color:white;
+}
+
+
+ul > li{
+    display: inline-block;
+    margin-left:20px;
+
+}
+
+.medio{
+
+    background-color: yellow;
+    width:60%;
+    border-radius:12px;
+
+}
+
+
+h2{
+
+    color:red;
+    opacity: 0.9 !important;
+}

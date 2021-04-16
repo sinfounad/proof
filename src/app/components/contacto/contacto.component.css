@@ -1,0 +1,60 @@
+@font-face
+{src: url(../../../assets/Fonts/Bunny_Baby.otf);
+
+  font-family:BunnyBaby;
+
+  
+  }
+
+  
+
+
+
+.containerText{
+
+    width:80%;
+
+    padding: 5px;
+    margin:30px 25%;
+}
+
+.ancho{
+
+    width: 60%;
+}
+
+
+
+  h2{
+    font-family:BunnyBaby;
+    text-align: center;
+
+  }
+
+  .contImg{
+   width: 600px;
+ 
+   justify-content: center;
+   background-color: rgb(212, 206, 247);
+  }
+
+  #main {
+    width: 200px;
+    height:150px;
+    border: 1px solid #c3c3c3;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(208, 201, 250);
+  }
+  
+  #main div {
+    width: 70px;
+    height: 70px;
+  }
+
+  .prueba{
+
+    background-color: red;
+    padding: 20px;
+}
+

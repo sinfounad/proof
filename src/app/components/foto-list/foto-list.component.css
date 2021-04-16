@@ -1,0 +1,64 @@
+.contenedorP{
+
+
+    padding: 90px;
+    position: absolute;
+}
+
+.fondoM{
+
+    background-color: rgba(8, 80, 236, 0.904);
+    padding: 2px;
+    border-radius: 12px;
+}
+
+.image{
+    
+    border-radius: 12px;
+}
+.alineacion{
+    margin:12px;
+    display:inline-block;
+}
+
+.alerta{
+
+    border-width: 2px;
+    border-color:rgb(27, 110, 233);
+    border-style: groove;
+    background-color: rgba(236, 234, 230, 0.87);
+    border-radius: 12px;
+    margin: 40px;
+    padding: 30px;
+    position:relative;
+    z-index: 19;
+    color:gray;
+    font-size: 20px;
+}
+
+button{
+
+    background-color: cornflowerblue;
+}
+.prueba{
+    width: 30%;
+    background-color: rgb(247, 230, 230);
+    border-color: darkcyan;
+    border-width: 2px;
+    border-radius:12px;
+    border-style: solid;
+    padding: 200px 230px;
+}
+
+.mostrar{
+  
+
+    padding:15px ;
+    display:none;
+   
+  }
+  .prueba1{
+
+    background-color: white;
+    padding: 20px;
+}
